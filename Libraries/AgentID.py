@@ -8,7 +8,7 @@ class AgentID:
         return dir_path
 
     def agentid(self):
-        df = pd.read_excel('Path/agents.xlsx')
+        df = pd.read_excel('agents.xlsx')
         return df['WA ID']
 
     # def rowscount(self):
